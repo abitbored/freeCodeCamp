@@ -1,0 +1,77 @@
+body {
+	width: 100%;
+	height: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #9E81AC;
+	color: #e9e3ed;
+	font-size: 16px;
+}
+
+h1 {
+	margin: 1em auto 0;
+	text-align: center;
+	text-shadow: 0 0 10px #3b2c42;
+}
+
+#description {
+	margin: 0.5em auto 0;
+	text-align: center;
+	font-style: italic;
+	text-shadow: 0 0 10px #3b2c42;
+}
+
+form {
+	width: 40vw;
+	margin: 1em auto 0;
+	border: 2px solid #866397 ;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #3b2c42;
+	max-width: 40vw;
+	min-width: 30vw;
+	padding: 30px;
+	box-sizing: border-box;
+	background-color: #866397;
+}
+
+form label {
+	display: block;
+	margin: 10px 0 0 0;
+}
+
+form textarea,
+form select,
+form input {
+	display: block;
+	width: 100%;
+	margin: 10px 0 0 0;
+	min-height: 2em;
+	box-sizing: border-box;
+}
+
+form input[type="radio"],
+form input[type="checkbox"] {
+	display: inline;
+}
+
+form p {
+	margin: unset;
+	text-align: unset;
+	font-style: unset;
+}
+
+form .clue {
+	font-style: italic;
+	font-size: 14px;
+}
+
+form textarea {
+	resize: none;
+}
+
+.inline {
+	width: unset;
+	margin: 0 0.5em 0 0;
+	vertical-align: middle;
+}

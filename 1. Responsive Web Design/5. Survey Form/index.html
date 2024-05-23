@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Instant Messaging Survey Form</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<h1 id="title">Instant Messanger Survey Form</h1>
+	<p id="description">Thank you for the time spent helping moi</p>
+	<form method="post" id="survey-form">
+		<label for="name" id="name-label">Name<input type="text" name="name" id="name" placeholder="Enter your name"
+				required></label>
+		<label for="email" id="email-label">Email<input type="email" name="email" id="email"
+				placeholder="Enter your email" required></label>
+		<label for="number" id="number-label">Age<span class="clue"> (optional)</span><input type="number" name="number"
+				id="number" min="0" max="24" placeholder="Age"></label>
+		<label for="dropdown">What instant messanger do you use most often?
+			<select name="instant-messanger" id="dropdown">
+				<option value="0" disabled selected>select an application</option>
+				<option value="1">WhatsApp</option>
+				<option value="2">Telegram</option>
+				<option value="3">Discord</option>
+				<option value="4">Line</option>
+				<option value="5">iMessage</option>
+				<option value="6">Other</option>
+			</select>
+		</label>
+		<p>Would you recommend this instant messanger to other people?</p>
+		<label for="definitely"><input type="radio" class="inline" name="recommend" id="definitely" value="definitely"> Definitely</label>
+		<label for="maybe"><input type="radio" class="inline" name="recommend" id="maybe" value="maybe"> Maybe</label>
+		<label for="no"><input type="radio" class="inline" name="recommend" id="no" value="no"> No</label>
+		<p>What device are you using this instant messanger with?<span class="clue"> (check all that apply)</span></p>
+		<label for="android"><input type="checkbox" class="inline" name="prefer" id="android" value="android">Android</label>
+		<label for="ios"><input type="checkbox" class="inline" name="prefer" id="ios" value="ios">iOS</label>
+		<label for="windows"><input type="checkbox" class="inline" name="prefer" id="windows" value="windows">Microsoft Windows</label>
+		<label for="macos"><input type="checkbox" class="inline" name="prefer" id="macos" value="macos">MacOS</label>
+		<label for="experience">Tell us about your experience when using the instant messanger
+			<textarea name="experience" id="experience" cols="30" rows="3" placeholder="Write your experience here..."></textarea>
+		</label>
+		<input type="submit" id="submit" value="Submit">
+	</form>
+</body>
+
+</html>
