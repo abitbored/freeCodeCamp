@@ -1,0 +1,68 @@
+html {
+	font-size: 16px;
+}
+
+#main {
+	background-color: #ececec;
+	margin: 30px 20px;
+	padding: 10px 0;
+	border-radius: 5px;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, sans-serif;
+}
+
+#title {
+	text-align: center;
+	font-size: 2em;
+}
+
+#description {
+	text-align: center;
+	font-size: 1.2em;
+}
+
+#img-div {
+	text-align: center;
+	width: 97%;
+	height: auto;
+	background-color: #ffffff;
+	border-radius: 5px;
+	margin: 0 auto;
+	padding: 10px;
+}
+
+#img-div img {
+	display: block;
+	width: 50%;
+	max-width: 100%;
+	height: auto;
+	margin: 10px auto;
+}
+
+#img-caption {
+	font-size: 0.8em;
+}
+
+#tribute-info {
+	width: 35%;
+	height: auto;
+	font-size: 1em;
+	text-align: justify;
+	margin: 0 auto;
+}
+
+#tribute-info h3 {
+	text-align: center;
+	margin: 20px 0;
+}
+
+#tribute-info ul {
+	margin: 0;
+}
+
+#tribute-info li {
+	margin: 20px 0;
+}
+
+#tribute-info blockquote {
+	font-style: italic;
+}
