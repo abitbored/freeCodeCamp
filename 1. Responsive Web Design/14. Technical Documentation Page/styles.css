@@ -1,0 +1,99 @@
+html {
+	font-size: 16px;
+	scroll-behavior: smooth;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.mono {
+	font-family: monospace;
+	font-size: 0.9em;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+#navbar {
+	height: 100%;
+	width: 300px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: #bdbdbd;
+	overflow-x: hidden;
+	border-right: 1px solid #bdbdbd;
+}
+
+#navbar header {
+	text-align: center;
+	font-size: 2rem;
+	width: 100%;
+	height: auto;
+	background-color: #f7f7f7;
+	padding: 20px 0;
+	border-bottom: 1px solid #bdbdbd;
+}
+
+#navbar ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+#navbar ul li {
+	width: 100%;
+	height: auto;
+	padding: 0 0 0 20px;
+	background-color: #f7f7f7;
+	border-bottom: 1px solid #bdbdbd;
+}
+
+#navbar a {
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 20px 10px;
+    transition: background-color 0.3s;
+}
+
+#main-doc {
+	margin-left: 300px;
+	padding: 20px;
+}
+
+#main-doc section {
+	margin-bottom: 20px;
+	padding: 10px 0 0 0;
+}
+
+#main-doc header {
+	text-align: left;
+	font-size: 2rem;
+	font-weight: 500;
+}
+
+#main-doc article {
+	text-align: left;
+	padding: 0 20px;
+}
+
+code {
+	background-color: #f7f7f7;
+	font-size: 0.9rem;
+	display: block;
+	white-space: pre-line;
+	position: relative;
+	word-break: normal;
+	word-wrap: normal;
+	line-height: 2;
+	padding: 15px;
+	margin: 10px;
+	border-radius: 5px;
+}
+
+@media only screen and (max-width: 815px) {
+	#navbar {
+		width: 100%;
+	}
+}
